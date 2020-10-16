@@ -1,3 +1,7 @@
+/*==========================================================
+Everything
+==========================================================*/
+
 * {
   font-family: merriweather-sans;
   overflow: scroll;
@@ -73,12 +77,14 @@ nav {
 }
 
 .main {
-  border: outset #700000 5px;
+  border: ridge #700000 8px;
   overflow: scroll;
-  margin: 10px 26%;
+  margin: auto;
+  margin-top: 10px;
   padding: 8px;
-  height: 40%;
+  height: 88%;
   width: 45%;
+  text-align: center;
 }
 
 #chefInfo, #cowInfo, #factoryInfo {
@@ -111,7 +117,45 @@ nav {
   margin: 0;
 }
 
-#cpc, #cps {
+#hr1 {
+   box-shadow: .5px .5px #000;
+   width: 75%;
+}
+
+#hr2 {
+   box-shadow: .5px .5px #000;
+}
+
+/*==========================================================
+Profits
+==========================================================*/
+
+#clickity, #cps {
   color: gold;
   text-shadow: 1px 1px black;
+}
+
+/*==========================================================
+Mobile
+==========================================================*/
+
+@media (max-width: 740px) {
+  body {
+    font-size: .8em;
+  }
+  #gain {
+    display: block;
+    width: 100%;
+    min-width: 300px;
+  }
+  #maingamecenter {
+    display: block;
+    width: 100%;
+    min-width: 300px;
+  }
+  #buildings {
+    display: block;
+    width: 100%;
+    min-width: 300px;
+  }
 }
