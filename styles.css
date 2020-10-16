@@ -1,0 +1,117 @@
+* {
+  font-family: merriweather-sans;
+  overflow: scroll;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  background-color: #5e9cff;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: 0;
+  overflow: scroll;
+}
+
+.productionButton {
+  background-color: #000;
+  color: #fff;
+  height: 50px;
+  width: 95%;
+  margin: 5px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 25%;
+  background-color: #e8efff;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+nav {
+  text-align: center;
+}
+
+#research {
+  position: fixed;
+  right: 25%;
+  top: 0px;
+  display: inline;
+}
+
+#cheeese {
+  position: relative;
+  height: 165px;
+  width: 275px;
+  border: outset 4px silver;
+  border-radius: 25px;
+  margin: 5px;
+}
+
+#cheeseAmount {
+  color: gold;
+  text-shadow: 2px 2px black;
+  font-size: 2em;
+}
+
+.active {
+  background-color: #4caf50;
+  font-size: 1.5em;
+  color: #eee;
+  display: block;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.main {
+  border: outset #700000 5px;
+  overflow: scroll;
+  margin: 10px 26%;
+  padding: 8px;
+  height: 40%;
+  width: 45%;
+}
+
+#chefInfo, #cowInfo, #factoryInfo {
+  border: inset silver 4px;
+  margin: 0px 5px 15px 5px;
+}
+
+.setbutton {
+  background-color: #000;
+  border: outset 3px gold;
+  color: #fff;
+  height: 40px;
+  width: 90px;
+}
+
+.UP {
+  border: outset 4px #4a4a4a;
+  margin: 5px;
+  font-size: 1.4em;
+  display: none;
+}
+
+.more {
+  font-size: .8em;
+  margin: 0;
+}
+
+.why {
+  font-size: .6em;
+  margin: 0;
+}
+
+#cpc, #cps {
+  color: gold;
+  text-shadow: 1px 1px black;
+}

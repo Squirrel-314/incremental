@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="styles.css">
+    <script src="main.js"></script>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <title>Cheese Clicker</title>
+  </head>
+  <body>
+    <nav id="invest">
+      <ul>
+        <li><a class="active">Investments</a></li>
+        <li><div class="">
+          <button class="productionButton" onclick="buyCow()" type="button" name="button">Cow</button>
+          <p id="cowInfo">A nice cow to give you fresh milk for your dairy products<br>+1 cheese per click<br>Cost 10 Cheese<br>You have 1<br>Moo!</p>
+        </div></li>
+        <li><div class="">
+          <button class="productionButton" onclick="hireChef()" type="button" name="button">Chef</button>
+          <p id="chefInfo">A chef that makes cheese<br>Cost 25 Cheese<br>5 CPS each<br>Producing 0 CPS<br>You have 0</p>
+        </div></li>
+        <li><div class="">
+          <button class="productionButton" onclick="buyFactory()" type="button" name="button">Cheese Factory</button>
+          <p id="factoryInfo">A factory that mass produces cheese<br>Cost 250 Cheese<br>25 CPS each<br>Producing 0 CPS<br>You have 0</p>
+        </div></li>
+      </ul>
+    </nav>
+    <div class="main">
+      <p id="cheeseAmount">0 Cheese!</p>
+      <img id="cheeese" onclick="moreCheese()" title="Who knew clicking an image of cheese could make cheese?!" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS7cfJpgb3gp0mwebK0tGaN71DP8RSq3nwPZA&usqp=CAU" alt="Click for cheese!">
+    </div>
+    <div class="main">
+      <button onclick="restart()" type="button" name="button" class="setbutton">Restart</button>
+    </div>
+    <nav id="research">
+        <ul>
+          <li><a class="active">Research</a></li>
+          <li id="a1" onclick="a1()" class="UP">Fresher Milk!<p class="why">Tasier cheese allows for price raise!</p><p class="more">Clicking revenue x2</p></li>
+          <li id="a2" onclick="a2()" class="UP">Growth Hormones!<p class="why">More milk (I have a bad feeling about this...)</p><p class="more">Clicking revenue x2</p></li>
+          <li id="a3" onclick="a3()" class="UP">Secret Ingredients!<p class="why">You DO NOT want to know what goes in there!(WARNING: Unexpected side effects may occur.)</p><p class="more">Clicking revenue x2</p></li>
+          <li id="a4" onclick="a4()" class="UP">Corn Syrup!<p class="why">Why put corn syrup in cheese? Who cares!(CAUTION: Dangerously addictive.)</p><p class="more">Clicking revenue x2</p></li>
+          <li id="b1" onclick="b1()" class="UP">Chef Collages!<p class="why">More educated chefs!</p><p class="more">Chef profit x2</p></li>
+          <li id="b2" onclick="b2()" class="UP">Paid Holidays!<p class="why">Robots would be so much cheaper...</p><p class="more">Chef profit x2</p></li>
+          <li id="b3" onclick="b3()" class="UP">Chef Managers!<p class="why">Down with the worker unions!</p><p class="more">Chef profit x2</p></li>
+          <li id="b4" onclick="b4()" class="UP">Robotic Chefs!<p class="why">We don't even need to pay them!</p><p class="more">Chef profit x2</p></li>
+          <li id="c1" onclick="c1()" class="UP">Larger Factories!<p class="why">More space for cheese machines!</p><p class="more">Factory profits x2</p></li>
+          <li id="c2" onclick="c2()" class="UP">Immigrant Labor!<p class="why">Your company is becoming more heartless and corparate!</p><p class="more">Factory profits x2</p></li>
+          <li id="c3" onclick="c3()" class="UP">Mysterious Cafeteria Food!<p class="why">Your workers will become mysteriously obedient!</p><p class="more">Factory profits x2</p></li>
+          <li id="c4" onclick="c4()" class="UP">Cloned Workers!<p class="why">Choose your favorite worker!</p><p class="more">Factory profits x2</p></li>
+          <li id="d1" onclick="d1()" class="UP">Cheese Monopoly!<p class="why">Gain complete controll of the cheese industry!</p><p class="more">All profits x2</p></li>
+          <li id="d2" onclick="d2()" class="UP">World Domination!<p class="why">You're next, Universe!</p><p class="more">All profits x2</p></li>
+        </ul>
+    </nav>
+</body>
+</html>
