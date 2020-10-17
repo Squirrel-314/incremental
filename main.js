@@ -234,3 +234,29 @@ function c2() {
     document.getElementById("factoryInfo").innerHTML = "A factory that mass produces cheese<br>Cost " + gameData.factoryPrice + " Cheese<br>" + gameData.factoryProfit + " CPS each<br>Producing " + gameData.factoryCheese + " CPS<br>You have " + gameData.factoryCount
   }
 }
+
+//==========================================================
+//Dark Theme
+//==========================================================
+
+function dark() {
+   document.body.style.background = "#383838";
+   document.getElementById("invests").style.background = "#828282";
+   document.getElementById("researchs").style.background = "#828282";
+   document.getElementById("cowInfo").style.background = "#d0d0d0";
+   document.getElementById("chefInfo").style.background = "#d0d0d0";
+   document.getElementById("factoryInfo").style.background = "#d0d0d0";
+
+   var all = document.getElementsByClassName('UP');
+   for (var i = 0; i < all.length; i++) {
+      all[i].style.color = '#fff';
+      all[i].style.fontFamily = 'times';
+      all[i].style.border = 'ridge 5px lightblue';
+      all[i].style.padding = '5px';
+      all[i].style.backgroundColor = "#595959";
+   }
+}
+
+function light() {
+  document.location.href = ("")
+}

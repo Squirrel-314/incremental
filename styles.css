@@ -98,7 +98,7 @@ Center
 ==========================================================*/
 
 .main {
-font-family: 'Crete Round', serif;
+  font-family: 'Crete Round', serif;
   border: ridge #700000 8px;
   overflow: scroll;
   margin: auto;
@@ -150,10 +150,13 @@ Hr Tags
 #hr1 {
    box-shadow: .5px .5px #000;
    width: 75%;
+   background-color: silver;
 }
 
 #hr2 {
    box-shadow: .5px .5px #000;
+   background-color: silver;
+   margin-bottom: 20px;
 }
 
 /*==========================================================
@@ -163,29 +166,4 @@ Profits
 #clickity, #cps {
   color: gold;
   text-shadow: 1px 1px black;
-}
-
-/*==========================================================
-Mobile
-==========================================================*/
-
-@media (max-width: 740px) {
-  body {
-    font-size: .8em;
-  }
-  #gain {
-    display: block;
-    width: 100%;
-    min-width: 300px;
-  }
-  #maingamecenter {
-    display: block;
-    width: 100%;
-    min-width: 300px;
-  }
-  #buildings {
-    display: block;
-    width: 100%;
-    min-width: 300px;
-  }
 }
