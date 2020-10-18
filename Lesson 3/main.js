@@ -64,7 +64,6 @@ function buyCow() {
     document.getElementById("cheeseAmount").innerHTML = gameData.cheese + " Cheese!"
   }
 }
-
 function hireChef() {
   if (gameData.cheese >= gameData.chefPrice) {
     gameData.cheese -= gameData.chefPrice
@@ -76,7 +75,6 @@ function hireChef() {
     document.getElementById("cheeseAmount").innerHTML = gameData.cheese + " Cheese!"
   }
 }
-
 function buyFactory() {
   if (gameData.cheese >= gameData.factoryPrice) {
     gameData.cheese -= gameData.factoryPrice

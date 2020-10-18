@@ -1,0 +1,44 @@
+/* Everything */
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  background-color: #5e9cff;
+  text-align: center;
+}
+
+/* Gain */
+
+#cheeese {
+  height: 50px;
+  width: 175px;
+  border: outset 4px silver;
+  border-radius: 15px;
+  margin: 5px;
+  background-color: #b52419;
+  color: rgb(186, 255, 0);
+  text-shadow: 1px 1px black;
+}
+
+#cheeseAmount {
+  color: gold;
+  text-shadow: 2px 2px black;
+  font-size: 2em;
+}
+
+/* Center */
+
+.main {
+  font-family: 'Crete Round', serif;
+  border: ridge #700000 8px;
+  overflow: scroll;
+  margin: auto;
+  margin-top: 10px;
+  padding: 8px;
+  height: 88%;
+  width: 45%;
+  text-align: center;
+
+}

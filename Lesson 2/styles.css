@@ -1,0 +1,105 @@
+/* Everything */
+
+* {
+  overflow: scroll;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  background-color: #5e9cff;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: 0;
+  text-align: center;
+}
+
+/* Products */
+
+.productionButton {
+  background-color: #1a3c93;
+  color: #fff;
+  height: 50px;
+  width: 95%;
+  margin: 5px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 25%;
+  background-color: #e8efff;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+
+#chefInfo, #cowInfo, #factoryInfo {
+  border: inset silver 4px;
+  margin: 0px 5px 15px 5px;
+}
+
+/* Gain */
+
+#cheeese {
+  position: relative;
+  height: 165px;
+  width: 275px;
+  border: outset 4px silver;
+  border-radius: 25px;
+  margin: 5px;
+}
+
+#cheeseAmount {
+  color: gold;
+  text-shadow: 2px 2px black;
+  font-size: 2em;
+}
+
+/* Link */
+
+.active {
+  background-color: #4caf50;
+  font-size: 1.5em;
+  color: #eee;
+  display: block;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+/* Center */
+
+.main {
+  border: ridge #700000 8px;
+  overflow: scroll;
+  margin: auto;
+  margin-top: 10px;
+  padding: 8px;
+  height: 88%;
+  width: 45%;
+  text-align: center;
+}
+
+/* Settings */
+
+.setbutton {
+  background-color: #000;
+  border: outset 3px gold;
+  color: #fff;
+  height: 40px;
+  width: 90px;
+}
+
+/* Hr Tags */
+
+#hr2 {
+   box-shadow: .5px .5px #000;
+   background-color: silver;
+   margin-bottom: 20px;
+}

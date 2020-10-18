@@ -1,0 +1,149 @@
+/* Everything */
+
+* {
+  overflow: scroll;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  font-family: 'Slabo 27px', serif;
+  background-color: #5e9cff;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: 0;
+  text-align: center;
+}
+
+/* Products */
+
+.productionButton {
+  background-color: #000;
+  color: #fff;
+  height: 50px;
+  width: 95%;
+  margin: 5px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 25%;
+  background-color: #e8efff;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+
+#chefInfo, #cowInfo, #factoryInfo {
+  border: inset silver 4px;
+  margin: 0px 5px 15px 5px;
+}
+
+/* Research */
+
+#research {
+  position: fixed;
+  right: 25%;
+  top: 0px;
+  display: inline;
+}
+
+/* Gain */
+
+#cheeese {
+  position: relative;
+  height: 165px;
+  width: 275px;
+  border: outset 4px silver;
+  border-radius: 25px;
+  margin: 5px;
+}
+
+#cheeseAmount {
+  color: gold;
+  text-shadow: 2px 2px black;
+  font-size: 2em;
+}
+
+/* Link */
+
+.active {
+  background-color: #4caf50;
+  font-size: 1.5em;
+  color: #eee;
+  display: block;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+/* Center */
+
+.main {
+  font-family: 'Crete Round', serif;
+  border: ridge #700000 8px;
+  overflow: scroll;
+  margin: auto;
+  margin-top: 10px;
+  padding: 8px;
+  height: 88%;
+  width: 45%;
+  text-align: center;
+
+}
+
+/* Settings */
+
+.setbutton {
+  background-color: #000;
+  border: outset 3px gold;
+  color: #fff;
+  height: 40px;
+  width: 90px;
+}
+
+/* Upgrades */
+
+.UP {
+  border: outset 4px #4a4a4a;
+  margin: 5px;
+  font-size: 1.4em;
+  display: none;
+}
+
+.more {
+  font-size: .8em;
+  margin: 0;
+}
+
+.why {
+  font-size: .6em;
+  margin: 0;
+}
+
+/* Hr Tags */
+
+#hr1 {
+   box-shadow: .5px .5px #000;
+   width: 75%;
+   background-color: silver;
+}
+
+#hr2 {
+   box-shadow: .5px .5px #000;
+   background-color: silver;
+   margin-bottom: 20px;
+}
+
+/* Profits */
+
+#clickity, #cps {
+  color: gold;
+  text-shadow: 1px 1px black;
+}
