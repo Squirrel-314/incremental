@@ -9,7 +9,6 @@
 }
 
 body {
-  font-family: 'Slabo 27px', serif;
   background-color: #5e9cff;
   top: 0;
   right: 0;
@@ -86,7 +85,6 @@ ul {
 /* Center */
 
 .main {
-  font-family: 'Crete Round', serif;
   border: ridge #700000 8px;
   overflow: scroll;
   margin: auto;
